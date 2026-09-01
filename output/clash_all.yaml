@@ -31,19 +31,6 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-    type: vmess
-    server: 45.80.111.9
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
   - name: 🇰🇷_韩国_14 - undefinedms
     type: vmess
     server: 140.238.2.250
@@ -520,6 +507,84 @@ proxies:
       path: /api/v1/gpu-stream/socket
       headers:
         Host: renderer-stream-2-62.mirra.now
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+    type: vmess
+    server: 45.80.111.9
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: ip18.6929198.xyz
+  - name: 🇭🇰HK_1|4.6MB/s - undefinedms
+    type: vmess
+    server: planb.mojcn.com.linuxlh.xin
+    port: 16622
+    uuid: 0f2a8df7-6119-496d-aef8-45ff837cf9ec
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 236be42fc5d210917a1ecf890328e104.mobgslb.tbcache.com
+  - name: 🇭🇰HK_2|2.5MB/s - undefinedms
+    type: vmess
+    server: m.cnmjin.net
+    port: 16632
+    uuid: 56174c24-a84b-4caf-b033-739728cc2773
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: af47ea9d24759da2ccb4dbdb6c4bb073.mobgslb.tbcache.com
+  - name: 🇿🇦ZA_1|1.3MB/s - undefinedms
+    type: vmess
+    server: za-a-zzy.glnyhlgc.com
+    port: 443
+    uuid: 5583af50-f464-4df6-e2ef-34592311e5c6
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /about/7678
+      headers:
+        Host: za-a-zzy.glnyhlgc.com
+  - name: 🇭🇰HK_3|1.6MB/s - undefinedms
+    type: vmess
+    server: planb.mojcn.com.linuxlh.xin
+    port: 16632
+    uuid: 6605fd88-f41c-4c2a-90ee-6777ac0a32a2
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 052977cd32d141678a739f13963d57ac.mobgslb.tbcache.com
+  - name: 🇭🇰HK_4|3.5MB/s - undefinedms
+    type: vmess
+    server: m.cnmjin.net
+    port: 16632
+    uuid: 2498a366-dd3c-4f0b-832c-f2df12f7ee27
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 791f9b5b1318471268a2dc21098376cc.mobgslb.tbcache.com
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -1092,7 +1157,6 @@ proxy-groups:
     proxies:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 🇰🇷_韩国_14 - undefinedms
       - 🇸🇬_新加坡_15 - undefinedms
       - 🇺🇸_美国_20 - undefinedms
@@ -1133,6 +1197,12 @@ proxy-groups:
       - 🇮🇳_印度_370 - undefinedms
       - 🇭🇰_香港_444 - undefinedms
       - 🇷🇺_俄罗斯_453 - undefinedms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - 🇭🇰HK_1|4.6MB/s - undefinedms
+      - 🇭🇰HK_2|2.5MB/s - undefinedms
+      - 🇿🇦ZA_1|1.3MB/s - undefinedms
+      - 🇭🇰HK_3|1.6MB/s - undefinedms
+      - 🇭🇰HK_4|3.5MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -1187,7 +1257,6 @@ proxy-groups:
       - Auto Select
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 🇰🇷_韩国_14 - undefinedms
       - 🇸🇬_新加坡_15 - undefinedms
       - 🇺🇸_美国_20 - undefinedms
@@ -1228,6 +1297,12 @@ proxy-groups:
       - 🇮🇳_印度_370 - undefinedms
       - 🇭🇰_香港_444 - undefinedms
       - 🇷🇺_俄罗斯_453 - undefinedms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - 🇭🇰HK_1|4.6MB/s - undefinedms
+      - 🇭🇰HK_2|2.5MB/s - undefinedms
+      - 🇿🇦ZA_1|1.3MB/s - undefinedms
+      - 🇭🇰HK_3|1.6MB/s - undefinedms
+      - 🇭🇰HK_4|3.5MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms

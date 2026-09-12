@@ -31,7 +31,29 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 🇩🇪_德国_53 - undefinedms
+  - name: 🇭🇰_香港_61 - undefinedms
+    type: vmess
+    server: v4.hdacd.com
+    port: 30804
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🏳️_未知_127 - undefinedms
+    type: vmess
+    server: www.shopify.com
+    port: 443
+    uuid: 3aa71202-a099-49c1-99fc-6662f3335369
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /3aa71202-a099-49c1-99fc-6662f3335369-vm
+      headers:
+        Host: yoga-suggesting-recording-calls.trycloudflare.com
+  - name: 🇩🇪_德国_231 - undefinedms
     type: vmess
     server: 111.88.74.167
     port: 443
@@ -44,7 +66,7 @@ proxies:
       path: /api/v1/gpu-stream/socket
       headers:
         Host: renderer-stream-2-62.mirra.now
-  - name: 🇩🇪_德国_76 - undefinedms
+  - name: 🇩🇪_德国_234 - undefinedms
     type: vmess
     server: 31.77.223.21
     port: 443
@@ -57,7 +79,7 @@ proxies:
       path: /api/v1/gpu-stream/socket
       headers:
         Host: renderer-stream-2-62.mirra.now
-  - name: 🇷🇺_俄罗斯_79 - undefinedms
+  - name: 🇷🇺_俄罗斯_236 - undefinedms
     type: vmess
     server: 5.188.26.85
     port: 443
@@ -70,6 +92,19 @@ proxies:
       path: /api/v1/gpu-stream/socket
       headers:
         Host: renderer-stream-2-62.mirra.now
+  - name: 🇮🇳_印度_449 - undefinedms
+    type: vmess
+    server: 20.235.220.189
+    port: 443
+    uuid: f23bb427c1f94373876c2f43e9f790f3
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: 6JDvArazgU3qQR6Q.v.3dns.vip
   - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
     type: vmess
     server: 45.80.111.9
@@ -83,19 +118,6 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: ip18.6929198.xyz
-  - name: 🇭🇰HK_1|3.2MB/s - undefinedms
-    type: vmess
-    server: www.shopify.com
-    port: 443
-    uuid: 3aa71202-a099-49c1-99fc-6662f3335369
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /3aa71202-a099-49c1-99fc-6662f3335369-vm
-      headers:
-        Host: yoga-suggesting-recording-calls.trycloudflare.com
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -421,24 +443,6 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇨🇳_CN_中国 - undefinedms
-    type: vmess
-    server: 112.132.215.108
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_HK_中国香港->🇬🇧_GB_英国 - undefinedms
-    type: vmess
-    server: v36.hdacd.com
-    port: 30836
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.26.0.206
@@ -636,6 +640,15 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
+  - name: 🇭🇰_HK_中国香港->🇬🇧_GB_英国 - undefinedms
+    type: vmess
+    server: v36.hdacd.com
+    port: 30836
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 🇺🇸_US_美国 - undefinedms
     type: vmess
     server: www.shopify.com
@@ -667,17 +680,28 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
+  - name: 🇨🇳_CN_中国 - undefinedms
+    type: vmess
+    server: 112.132.215.108
+    port: 50002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    network: tcp
 proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 🇩🇪_德国_53 - undefinedms
-      - 🇩🇪_德国_76 - undefinedms
-      - 🇷🇺_俄罗斯_79 - undefinedms
+      - 🇭🇰_香港_61 - undefinedms
+      - 🏳️_未知_127 - undefinedms
+      - 🇩🇪_德国_231 - undefinedms
+      - 🇩🇪_德国_234 - undefinedms
+      - 🇷🇺_俄罗斯_236 - undefinedms
+      - 🇮🇳_印度_449 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇭🇰HK_1|3.2MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -703,8 +727,6 @@ proxy-groups:
       - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_21 - undefinedms
       - 🇺🇸_US_美国_22 - undefinedms
-      - 🇨🇳_CN_中国 - undefinedms
-      - 🇭🇰_HK_中国香港->🇬🇧_GB_英国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -722,9 +744,11 @@ proxy-groups:
       - 🇭🇰_HK_中国香港->🇫🇷_FR_法国 - undefinedms
       - 🇭🇰_HK_中国香港->🇺🇸_US_美国 - undefinedms
       - 🇭🇰_HK_中国香港->🇩🇪_DE_德国 - undefinedms
+      - 🇭🇰_HK_中国香港->🇬🇧_GB_英国 - undefinedms
       - 🇺🇸_US_美国 - undefinedms
       - 🇯🇵_JP_日本 - undefinedms
       - 🇭🇰_HK_中国香港->🇯🇵_JP_日本 - undefinedms
+      - 🇨🇳_CN_中国 - undefinedms
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: Proxy
@@ -733,11 +757,13 @@ proxy-groups:
       - Auto Select
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 🇩🇪_德国_53 - undefinedms
-      - 🇩🇪_德国_76 - undefinedms
-      - 🇷🇺_俄罗斯_79 - undefinedms
+      - 🇭🇰_香港_61 - undefinedms
+      - 🏳️_未知_127 - undefinedms
+      - 🇩🇪_德国_231 - undefinedms
+      - 🇩🇪_德国_234 - undefinedms
+      - 🇷🇺_俄罗斯_236 - undefinedms
+      - 🇮🇳_印度_449 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇭🇰HK_1|3.2MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -763,8 +789,6 @@ proxy-groups:
       - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_21 - undefinedms
       - 🇺🇸_US_美国_22 - undefinedms
-      - 🇨🇳_CN_中国 - undefinedms
-      - 🇭🇰_HK_中国香港->🇬🇧_GB_英国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -782,8 +806,10 @@ proxy-groups:
       - 🇭🇰_HK_中国香港->🇫🇷_FR_法国 - undefinedms
       - 🇭🇰_HK_中国香港->🇺🇸_US_美国 - undefinedms
       - 🇭🇰_HK_中国香港->🇩🇪_DE_德国 - undefinedms
+      - 🇭🇰_HK_中国香港->🇬🇧_GB_英国 - undefinedms
       - 🇺🇸_US_美国 - undefinedms
       - 🇯🇵_JP_日本 - undefinedms
       - 🇭🇰_HK_中国香港->🇯🇵_JP_日本 - undefinedms
+      - 🇨🇳_CN_中国 - undefinedms
 rules:
   - MATCH,Proxy

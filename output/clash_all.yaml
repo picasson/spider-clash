@@ -44,7 +44,61 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: ip18.6929198.xyz
-  - name: 🇭🇰_香港_61 - undefinedms
+  - name: 🇭🇰_香港_24 - undefinedms
+    type: vmess
+    server: v33.hdacd.com
+    port: 30833
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰_香港_29 - undefinedms
+    type: vmess
+    server: v35.hdacd.com
+    port: 30835
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸_US_美国 - undefinedms
+    type: vmess
+    server: 165.140.217.2
+    port: 443
+    uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇨🇳_CN_中国 - undefinedms
+    type: vmess
+    server: 112.132.215.108
+    port: 50002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰_HK_中国香港 - undefinedms
+    type: vmess
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰_HK_中国香港->🇫🇷_FR_法国 - undefinedms
+    type: vmess
+    server: v35.hdacd.com
+    port: 30835
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰_HK_中国香港->🇺🇸_US_美国 - undefinedms
     type: vmess
     server: v4.hdacd.com
     port: 30804
@@ -53,71 +107,55 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🏳️_未知_127 - undefinedms
+  - name: 🇭🇰_HK_中国香港->🇩🇪_DE_德国 - undefinedms
+    type: vmess
+    server: v33.hdacd.com
+    port: 30833
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰_HK_中国香港->🇬🇧_GB_英国 - undefinedms
+    type: vmess
+    server: v36.hdacd.com
+    port: 30836
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸_US_美国 - undefinedms
     type: vmess
     server: www.shopify.com
     port: 443
-    uuid: 3aa71202-a099-49c1-99fc-6662f3335369
+    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
     alterId: 0
     cipher: auto
     tls: true
     network: ws
     ws-opts:
-      path: /3aa71202-a099-49c1-99fc-6662f3335369-vm
+      path: /hls/cctv5phd.m3u8
       headers:
-        Host: yoga-suggesting-recording-calls.trycloudflare.com
-  - name: 🇩🇪_德国_231 - undefinedms
+        Host: guanwang.awsno.com
+  - name: 🇯🇵_JP_日本 - undefinedms
     type: vmess
-    server: 111.88.74.167
-    port: 443
-    uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+    server: 38.47.121.14
+    port: 49432
+    uuid: ce94f204-ffa6-4fa8-a1dc-ecfccfd463cb
     alterId: 0
     cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /api/v1/gpu-stream/socket
-      headers:
-        Host: renderer-stream-2-62.mirra.now
-  - name: 🇩🇪_德国_234 - undefinedms
+    tls: false
+    network: http
+  - name: 🇭🇰_HK_中国香港->🇯🇵_JP_日本 - undefinedms
     type: vmess
-    server: 31.77.223.21
-    port: 443
-    uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-    alterId: 0
+    server: v6.hdacd.com
+    port: 30806
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
     cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /api/v1/gpu-stream/socket
-      headers:
-        Host: renderer-stream-2-62.mirra.now
-  - name: 🇷🇺_俄罗斯_236 - undefinedms
-    type: vmess
-    server: 5.188.26.85
-    port: 443
-    uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /api/v1/gpu-stream/socket
-      headers:
-        Host: renderer-stream-2-62.mirra.now
-  - name: 🇮🇳_印度_449 - undefinedms
-    type: vmess
-    server: 20.235.220.189
-    port: 443
-    uuid: f23bb427c1f94373876c2f43e9f790f3
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /ws-vmess
-      headers:
-        Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+    tls: false
+    network: tcp
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.26.0.206
@@ -267,100 +305,6 @@ proxies:
     port: 50002
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 64
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_HK_中国香港->🇬🇧_GB_英国 - undefinedms
-    type: vmess
-    server: v36.hdacd.com
-    port: 30836
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸_US_美国 - undefinedms
-    type: vmess
-    server: 165.140.217.2
-    port: 443
-    uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇨🇳_CN_中国 - undefinedms
-    type: vmess
-    server: 112.132.215.108
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_HK_中国香港 - undefinedms
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_HK_中国香港->🇫🇷_FR_法国 - undefinedms
-    type: vmess
-    server: v35.hdacd.com
-    port: 30835
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_HK_中国香港->🇺🇸_US_美国 - undefinedms
-    type: vmess
-    server: v4.hdacd.com
-    port: 30804
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_HK_中国香港->🇩🇪_DE_德国 - undefinedms
-    type: vmess
-    server: v33.hdacd.com
-    port: 30833
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸_US_美国 - undefinedms
-    type: vmess
-    server: www.shopify.com
-    port: 443
-    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /hls/cctv5phd.m3u8
-      headers:
-        Host: guanwang.awsno.com
-  - name: 🇯🇵_JP_日本 - undefinedms
-    type: vmess
-    server: 38.47.121.14
-    port: 49432
-    uuid: ce94f204-ffa6-4fa8-a1dc-ecfccfd463cb
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: http
-  - name: 🇭🇰_HK_中国香港->🇯🇵_JP_日本 - undefinedms
-    type: vmess
-    server: v6.hdacd.com
-    port: 30806
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
     cipher: auto
     tls: false
     network: tcp
@@ -696,12 +640,18 @@ proxy-groups:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇭🇰_香港_61 - undefinedms
-      - 🏳️_未知_127 - undefinedms
-      - 🇩🇪_德国_231 - undefinedms
-      - 🇩🇪_德国_234 - undefinedms
-      - 🇷🇺_俄罗斯_236 - undefinedms
-      - 🇮🇳_印度_449 - undefinedms
+      - 🇭🇰_香港_24 - undefinedms
+      - 🇭🇰_香港_29 - undefinedms
+      - 🇺🇸_US_美国 - undefinedms
+      - 🇨🇳_CN_中国 - undefinedms
+      - 🇭🇰_HK_中国香港 - undefinedms
+      - 🇭🇰_HK_中国香港->🇫🇷_FR_法国 - undefinedms
+      - 🇭🇰_HK_中国香港->🇺🇸_US_美国 - undefinedms
+      - 🇭🇰_HK_中国香港->🇩🇪_DE_德国 - undefinedms
+      - 🇭🇰_HK_中国香港->🇬🇧_GB_英国 - undefinedms
+      - 🇺🇸_US_美国 - undefinedms
+      - 🇯🇵_JP_日本 - undefinedms
+      - 🇭🇰_HK_中国香港->🇯🇵_JP_日本 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -714,16 +664,6 @@ proxy-groups:
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
       - 🇨🇳_CN_中国 - undefinedms
-      - 🇭🇰_HK_中国香港->🇬🇧_GB_英国 - undefinedms
-      - 🇺🇸_US_美国 - undefinedms
-      - 🇨🇳_CN_中国 - undefinedms
-      - 🇭🇰_HK_中国香港 - undefinedms
-      - 🇭🇰_HK_中国香港->🇫🇷_FR_法国 - undefinedms
-      - 🇭🇰_HK_中国香港->🇺🇸_US_美国 - undefinedms
-      - 🇭🇰_HK_中国香港->🇩🇪_DE_德国 - undefinedms
-      - 🇺🇸_US_美国 - undefinedms
-      - 🇯🇵_JP_日本 - undefinedms
-      - 🇭🇰_HK_中国香港->🇯🇵_JP_日本 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -758,12 +698,18 @@ proxy-groups:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇭🇰_香港_61 - undefinedms
-      - 🏳️_未知_127 - undefinedms
-      - 🇩🇪_德国_231 - undefinedms
-      - 🇩🇪_德国_234 - undefinedms
-      - 🇷🇺_俄罗斯_236 - undefinedms
-      - 🇮🇳_印度_449 - undefinedms
+      - 🇭🇰_香港_24 - undefinedms
+      - 🇭🇰_香港_29 - undefinedms
+      - 🇺🇸_US_美国 - undefinedms
+      - 🇨🇳_CN_中国 - undefinedms
+      - 🇭🇰_HK_中国香港 - undefinedms
+      - 🇭🇰_HK_中国香港->🇫🇷_FR_法国 - undefinedms
+      - 🇭🇰_HK_中国香港->🇺🇸_US_美国 - undefinedms
+      - 🇭🇰_HK_中国香港->🇩🇪_DE_德国 - undefinedms
+      - 🇭🇰_HK_中国香港->🇬🇧_GB_英国 - undefinedms
+      - 🇺🇸_US_美国 - undefinedms
+      - 🇯🇵_JP_日本 - undefinedms
+      - 🇭🇰_HK_中国香港->🇯🇵_JP_日本 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -776,16 +722,6 @@ proxy-groups:
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
       - 🇨🇳_CN_中国 - undefinedms
-      - 🇭🇰_HK_中国香港->🇬🇧_GB_英国 - undefinedms
-      - 🇺🇸_US_美国 - undefinedms
-      - 🇨🇳_CN_中国 - undefinedms
-      - 🇭🇰_HK_中国香港 - undefinedms
-      - 🇭🇰_HK_中国香港->🇫🇷_FR_法国 - undefinedms
-      - 🇭🇰_HK_中国香港->🇺🇸_US_美国 - undefinedms
-      - 🇭🇰_HK_中国香港->🇩🇪_DE_德国 - undefinedms
-      - 🇺🇸_US_美国 - undefinedms
-      - 🇯🇵_JP_日本 - undefinedms
-      - 🇭🇰_HK_中国香港->🇯🇵_JP_日本 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms

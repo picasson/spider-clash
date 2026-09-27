@@ -31,6 +31,15 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
+  - name: 德国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 5.45.97.147
+    port: 10803
+    uuid: 018fbfb7-721a-49a9-b9f5-fb55d92592b6
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
     type: vmess
     server: 45.80.111.9
@@ -540,6 +549,7 @@ proxy-groups:
     proxies:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
+      - 德国 V2CROSS.COM - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 🇹🇼_TW_中国台湾 - undefinedms
       - 🇨🇳_CN_中国 - undefinedms
@@ -587,6 +597,7 @@ proxy-groups:
       - Auto Select
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
+      - 德国 V2CROSS.COM - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 🇹🇼_TW_中国台湾 - undefinedms
       - 🇨🇳_CN_中国 - undefinedms

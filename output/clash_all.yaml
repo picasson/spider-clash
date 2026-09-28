@@ -44,6 +44,19 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: ip18.6929198.xyz
+  - name: 🇰🇷KR_2|3.7MB/s - undefinedms
+    type: vmess
+    server: 8nTzyR5KNivfabaT.v.3dns.vip
+    port: 443
+    uuid: f0b7bbd66aad458aaec0e9acaab768b6
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: 8nTzyR5KNivfabaT.v.3dns.vip
   - name: 🇰🇷_韩国_9 - undefinedms
     type: vmess
     server: 217.142.138.61
@@ -1145,6 +1158,7 @@ proxy-groups:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - 🇰🇷KR_2|3.7MB/s - undefinedms
       - 🇰🇷_韩国_9 - undefinedms
       - 🇰🇷_韩国_11 - undefinedms
       - 🇩🇪_德国_28 - undefinedms
@@ -1248,6 +1262,7 @@ proxy-groups:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - 🇰🇷KR_2|3.7MB/s - undefinedms
       - 🇰🇷_韩国_9 - undefinedms
       - 🇰🇷_韩国_11 - undefinedms
       - 🇩🇪_德国_28 - undefinedms

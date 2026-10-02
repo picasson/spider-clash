@@ -31,19 +31,6 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 巴西圣保罗 CloudFlare节点 - undefinedms
-    type: vmess
-    server: 188.114.96.19
-    port: 80
-    uuid: af4be52a-aab3-4db1-a6bb-c23700dcb9c2
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560
-      headers:
-        Host: https.http.www.net.com.ramseyv2.ir.
   - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
     type: vmess
     server: 45.80.111.9
@@ -57,144 +44,84 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: ip18.6929198.xyz
-  - name: 🇨🇳_中国_75 - undefinedms
+  - name: 🇹🇼_台湾_38 - undefinedms
     type: vmess
-    server: 112.132.215.108
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_香港_76 - undefinedms
-    type: vmess
-    server: v35.hdacd.com
-    port: 30835
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇨🇳_中国_77 - undefinedms
-    type: vmess
-    server: 36.133.78.37
-    port: 50015
-    uuid: 1b30f413-2865-4d40-9146-4207778718cd
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇨🇳_中国_79 - undefinedms
-    type: vmess
-    server: 36.133.78.37
-    port: 50016
-    uuid: 1235431b-b6b8-4add-bff4-a6d71bcc4d71
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_香港_80 - undefinedms
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_香港_81 - undefinedms
-    type: vmess
-    server: v6.hdacd.com
-    port: 30806
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_香港_82 - undefinedms
-    type: vmess
-    server: v4.hdacd.com
-    port: 30804
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_香港_83 - undefinedms
-    type: vmess
-    server: v36.hdacd.com
-    port: 30836
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🏳️_未知_105 - undefinedms
-    type: vmess
-    server: yg1.ygkkk.dpdns.org
-    port: 443
-    uuid: b2ba4a73-3123-479e-aa96-5973a9ecd0c0
+    server: mdk.mdmekjll.best
+    port: 80
+    uuid: 6E571484-4166-4699-8F58-B34A1823691F
     alterId: 0
     cipher: auto
     tls: true
     network: ws
     ws-opts:
-      path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm
+      path: /game/resources
       headers:
-        Host: jmp1.907737.xyz
-  - name: 🏳️_未知_165 - undefinedms
+        Host: mdk.mdmekjll.best
+  - name: 🇮🇩_印度尼西亚_39 - undefinedms
     type: vmess
-    server: guanwang.awsno.com
-    port: 443
-    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+    server: az-1.linkaa.xyz
+    port: 53437
+    uuid: 6E571484-4166-4699-8F58-B34A1823691F
     alterId: 0
     cipher: auto
     tls: true
     network: ws
     ws-opts:
-      path: /hls/cctv5phd.m3u8
+      path: /game/resources
       headers:
-        Host: guanwang.awsno.com
-  - name: 🇹🇼_TW_中国台湾 - undefinedms
+        Host: az-1.linkaa.xyz
+  - name: 🇮🇩_印度尼西亚_40 - undefinedms
     type: vmess
-    server: 654168416355441.oylfmxz.cn
-    port: 443
-    uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+    server: az-1.linkaa.xyz
+    port: 53617
+    uuid: 6E571484-4166-4699-8F58-B34A1823691F
     alterId: 0
     cipher: auto
     tls: true
     network: ws
     ws-opts:
-      path: /
+      path: /game/resources
       headers:
-        Host: 654168416355441.oylfmxz.cn
-  - name: 🇨🇳_CN_中国 - undefinedms
+        Host: az-1.linkaa.xyz
+  - name: 🇹🇼_台湾_42 - undefinedms
     type: vmess
-    server: 112.132.215.108
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
+    server: hi.northcluster.info
+    port: 52300
+    uuid: 6e571484-4166-4699-8f58-b34a1823691f
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /video
+      headers:
+        Host: hi.northcluster.info
+  - name: 🇫🇷_法国_54 - undefinedms
+    type: vmess
+    server: 2001:bc8:32d7:1a9::2
+    port: 18901
+    uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999-newpac/fanqiang
+      headers:
+        Host: 2001:bc8:32d7:1a9::2
+  - name: 🇫🇷_法国_63 - undefinedms
+    type: vmess
+    server: 2001:bc8:32d7:1a9::2
+    port: 18901
+    uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
+    alterId: 0
     cipher: auto
     tls: false
-    network: tcp
-  - name: 🇨🇳_CN_中国 - undefinedms
-    type: vmess
-    server: 112.132.215.108
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_HK_中国香港->🇬🇧_GB_英国 - undefinedms
-    type: vmess
-    server: v36.hdacd.com
-    port: 30836
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999-newpac/fanqiang
+      headers:
+        Host: 2001:bc8:32d7:1a9::2
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -663,28 +590,59 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: p132.613055.xyz
+  - name: 🇨🇳_CN_中国 - undefinedms
+    type: vmess
+    server: 112.132.215.108
+    port: 50002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰_HK_中国香港->🇬🇧_GB_英国 - undefinedms
+    type: vmess
+    server: v36.hdacd.com
+    port: 30836
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇹🇼_TW_中国台湾 - undefinedms
+    type: vmess
+    server: 654168416355441.oylfmxz.cn
+    port: 443
+    uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 654168416355441.oylfmxz.cn
+  - name: 🇨🇳_CN_中国 - undefinedms
+    type: vmess
+    server: 112.132.215.108
+    port: 50002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    network: tcp
 proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 巴西圣保罗 CloudFlare节点 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇨🇳_中国_75 - undefinedms
-      - 🇭🇰_香港_76 - undefinedms
-      - 🇨🇳_中国_77 - undefinedms
-      - 🇨🇳_中国_79 - undefinedms
-      - 🇭🇰_香港_80 - undefinedms
-      - 🇭🇰_香港_81 - undefinedms
-      - 🇭🇰_香港_82 - undefinedms
-      - 🇭🇰_香港_83 - undefinedms
-      - 🏳️_未知_105 - undefinedms
-      - 🏳️_未知_165 - undefinedms
-      - 🇹🇼_TW_中国台湾 - undefinedms
-      - 🇨🇳_CN_中国 - undefinedms
-      - 🇨🇳_CN_中国 - undefinedms
-      - 🇭🇰_HK_中国香港->🇬🇧_GB_英国 - undefinedms
+      - 🇹🇼_台湾_38 - undefinedms
+      - 🇮🇩_印度尼西亚_39 - undefinedms
+      - 🇮🇩_印度尼西亚_40 - undefinedms
+      - 🇹🇼_台湾_42 - undefinedms
+      - 🇫🇷_法国_54 - undefinedms
+      - 🇫🇷_法国_63 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -721,6 +679,10 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
+      - 🇨🇳_CN_中国 - undefinedms
+      - 🇭🇰_HK_中国香港->🇬🇧_GB_英国 - undefinedms
+      - 🇹🇼_TW_中国台湾 - undefinedms
+      - 🇨🇳_CN_中国 - undefinedms
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: Proxy
@@ -729,22 +691,13 @@ proxy-groups:
       - Auto Select
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 巴西圣保罗 CloudFlare节点 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇨🇳_中国_75 - undefinedms
-      - 🇭🇰_香港_76 - undefinedms
-      - 🇨🇳_中国_77 - undefinedms
-      - 🇨🇳_中国_79 - undefinedms
-      - 🇭🇰_香港_80 - undefinedms
-      - 🇭🇰_香港_81 - undefinedms
-      - 🇭🇰_香港_82 - undefinedms
-      - 🇭🇰_香港_83 - undefinedms
-      - 🏳️_未知_105 - undefinedms
-      - 🏳️_未知_165 - undefinedms
-      - 🇹🇼_TW_中国台湾 - undefinedms
-      - 🇨🇳_CN_中国 - undefinedms
-      - 🇨🇳_CN_中国 - undefinedms
-      - 🇭🇰_HK_中国香港->🇬🇧_GB_英国 - undefinedms
+      - 🇹🇼_台湾_38 - undefinedms
+      - 🇮🇩_印度尼西亚_39 - undefinedms
+      - 🇮🇩_印度尼西亚_40 - undefinedms
+      - 🇹🇼_台湾_42 - undefinedms
+      - 🇫🇷_法国_54 - undefinedms
+      - 🇫🇷_法国_63 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -781,5 +734,9 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
+      - 🇨🇳_CN_中国 - undefinedms
+      - 🇭🇰_HK_中国香港->🇬🇧_GB_英国 - undefinedms
+      - 🇹🇼_TW_中国台湾 - undefinedms
+      - 🇨🇳_CN_中国 - undefinedms
 rules:
   - MATCH,Proxy

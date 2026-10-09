@@ -44,32 +44,6 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: ip18.6929198.xyz
-  - name: 🇳🇱_荷兰_83 - undefinedms
-    type: vmess
-    server: nl-2a972c8052.shamanapp.online
-    port: 33736
-    uuid: 1281acca-f21d-475c-bf04-eccbee7f8df2
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /vmess-ws
-      headers:
-        Host: nl-2a972c8052.shamanapp.online
-  - name: 🇳🇱_荷兰_86 - undefinedms
-    type: vmess
-    server: nl-2a972c8052.shamanapp.online
-    port: 33736
-    uuid: 1281acca-f21d-475c-bf04-eccbee7f8df2
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /vmess-ws
-      headers:
-        Host: nl-2a972c8052.shamanapp.online
   - name: 🇨🇳_CN_中国 - undefinedms
     type: vmess
     server: 112.132.215.108
@@ -563,8 +537,6 @@ proxy-groups:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇳🇱_荷兰_83 - undefinedms
-      - 🇳🇱_荷兰_86 - undefinedms
       - 🇨🇳_CN_中国 - undefinedms
       - 🇭🇰_HK_中国香港->🇬🇧_GB_英国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
@@ -612,8 +584,6 @@ proxy-groups:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇳🇱_荷兰_83 - undefinedms
-      - 🇳🇱_荷兰_86 - undefinedms
       - 🇨🇳_CN_中国 - undefinedms
       - 🇭🇰_HK_中国香港->🇬🇧_GB_英国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms

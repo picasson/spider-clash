@@ -31,19 +31,6 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-    type: vmess
-    server: 45.80.111.9
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
   - name: 🏳️_未知_68 - undefinedms
     type: vmess
     server: 165.140.217.2
@@ -456,19 +443,19 @@ proxies:
       path: /KualaLumpur1
       headers:
         Host: my.lovehk.xyz
-  - name: 🇩🇪DE_1|1.6MB/s - undefinedms
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
     type: vmess
-    server: renderer-stream-2-114.mirra.now
-    port: 443
-    uuid: 8ffa41d4-e6b5-4af5-a8a9-69e26bec75f5
+    server: 45.80.111.9
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     network: ws
     ws-opts:
-      path: /api/v1/gpu-stream/socket
+      path: /github.com/Alvin9999
       headers:
-        Host: renderer-stream-2-114.mirra.now
+        Host: ip18.6929198.xyz
   - name: 🇺🇸_US_美国 - undefinedms
     type: vmess
     server: 165.140.217.2
@@ -560,6 +547,15 @@ proxies:
     port: 30806
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇨🇳_CN_中国 - undefinedms
+    type: vmess
+    server: 112.132.215.108
+    port: 50002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
     cipher: auto
     tls: false
     network: tcp
@@ -1031,22 +1027,12 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: p132.613055.xyz
-  - name: 🇨🇳_CN_中国 - undefinedms
-    type: vmess
-    server: 112.132.215.108
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    network: tcp
 proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 🏳️_未知_68 - undefinedms
       - 🇳🇱_荷兰_93 - undefinedms
       - 🇹🇼_台湾_97 - undefinedms
@@ -1079,7 +1065,7 @@ proxy-groups:
       - 🇸🇨_塞舌尔_250 - undefinedms
       - 🏳️_未知_255 - undefinedms
       - 🇺🇸_美国_256 - undefinedms
-      - 🇩🇪DE_1|1.6MB/s - undefinedms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国 - undefinedms
       - 🇨🇳_CN_中国 - undefinedms
       - 🇭🇰_HK_中国香港 - undefinedms
@@ -1090,6 +1076,7 @@ proxy-groups:
       - 🇺🇸_US_美国 - undefinedms
       - 🇯🇵_JP_日本 - undefinedms
       - 🇭🇰_HK_中国香港->🇯🇵_JP_日本 - undefinedms
+      - 🇨🇳_CN_中国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -1126,7 +1113,6 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
-      - 🇨🇳_CN_中国 - undefinedms
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: Proxy
@@ -1135,7 +1121,6 @@ proxy-groups:
       - Auto Select
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 🏳️_未知_68 - undefinedms
       - 🇳🇱_荷兰_93 - undefinedms
       - 🇹🇼_台湾_97 - undefinedms
@@ -1168,7 +1153,7 @@ proxy-groups:
       - 🇸🇨_塞舌尔_250 - undefinedms
       - 🏳️_未知_255 - undefinedms
       - 🇺🇸_美国_256 - undefinedms
-      - 🇩🇪DE_1|1.6MB/s - undefinedms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国 - undefinedms
       - 🇨🇳_CN_中国 - undefinedms
       - 🇭🇰_HK_中国香港 - undefinedms
@@ -1179,6 +1164,7 @@ proxy-groups:
       - 🇺🇸_US_美国 - undefinedms
       - 🇯🇵_JP_日本 - undefinedms
       - 🇭🇰_HK_中国香港->🇯🇵_JP_日本 - undefinedms
+      - 🇨🇳_CN_中国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -1215,6 +1201,5 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
-      - 🇨🇳_CN_中国 - undefinedms
 rules:
   - MATCH,Proxy

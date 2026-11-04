@@ -275,28 +275,6 @@ proxies:
     cipher: auto
     tls: true
     network: tcp
-  - name: 🇹🇼_TW_中国台湾 - undefinedms
-    type: vmess
-    server: 654168416355441.oylfmxz.cn
-    port: 443
-    uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 654168416355441.oylfmxz.cn
-  - name: 🇨🇳_CN_中国 - undefinedms
-    type: vmess
-    server: 112.132.215.108
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    network: tcp
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.26.0.206
@@ -765,6 +743,28 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
+  - name: 🇹🇼_TW_中国台湾 - undefinedms
+    type: vmess
+    server: 654168416355441.oylfmxz.cn
+    port: 443
+    uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 654168416355441.oylfmxz.cn
+  - name: 🇨🇳_CN_中国 - undefinedms
+    type: vmess
+    server: 112.132.215.108
+    port: 50002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    network: tcp
 proxy-groups:
   - name: Auto Select
     type: url-test
@@ -790,8 +790,6 @@ proxy-groups:
       - 🇩🇪_德国 (17) - undefinedms
       - 🇩🇪_德国 (18) - undefinedms
       - 🇺🇸_美国 (50) - undefinedms
-      - 🇹🇼_TW_中国台湾 - undefinedms
-      - 🇨🇳_CN_中国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -828,6 +826,8 @@ proxy-groups:
       - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_21 - undefinedms
       - 🇺🇸_US_美国_22 - undefinedms
+      - 🇹🇼_TW_中国台湾 - undefinedms
+      - 🇨🇳_CN_中国 - undefinedms
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: Proxy
@@ -855,8 +855,6 @@ proxy-groups:
       - 🇩🇪_德国 (17) - undefinedms
       - 🇩🇪_德国 (18) - undefinedms
       - 🇺🇸_美国 (50) - undefinedms
-      - 🇹🇼_TW_中国台湾 - undefinedms
-      - 🇨🇳_CN_中国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -893,5 +891,7 @@ proxy-groups:
       - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_21 - undefinedms
       - 🇺🇸_US_美国_22 - undefinedms
+      - 🇹🇼_TW_中国台湾 - undefinedms
+      - 🇨🇳_CN_中国 - undefinedms
 rules:
   - MATCH,Proxy

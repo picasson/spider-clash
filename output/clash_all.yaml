@@ -5,55 +5,6 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 未知 VMESS-16 | free-nodes - undefinedms
-    type: vmess
-    server: 192.0.2.1
-    port: 1
-    uuid: 6c6a0625-ac3f-4bd8-9cc8-0545e4e11409
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 未知 VMESS-17 | free-nodes - undefinedms
-    type: vmess
-    server: 192.0.2.1
-    port: 1
-    uuid: 6c6a0625-ac3f-4bd8-9cc8-0545e4e11409
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 未知 VMESS-18 | free-nodes - undefinedms
-    type: vmess
-    server: 192.0.2.1
-    port: 1
-    uuid: 6c6a0625-ac3f-4bd8-9cc8-0545e4e11409
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 未知 VMESS-19 | free-nodes - undefinedms
-    type: vmess
-    server: 192.0.2.1
-    port: 1
-    uuid: 6c6a0625-ac3f-4bd8-9cc8-0545e4e11409
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-    type: vmess
-    server: 45.80.111.9
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
   - name: TG-@vvkj11 - undefinedms
     type: vmess
     server: 23.227.39.11
@@ -402,6 +353,19 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+    type: vmess
+    server: 45.80.111.9
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: ip18.6929198.xyz
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -874,11 +838,6 @@ proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
-      - 未知 VMESS-16 | free-nodes - undefinedms
-      - 未知 VMESS-17 | free-nodes - undefinedms
-      - 未知 VMESS-18 | free-nodes - undefinedms
-      - 未知 VMESS-19 | free-nodes - undefinedms
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 🇳🇱_荷兰 - undefinedms
@@ -915,6 +874,7 @@ proxy-groups:
       - 🇳🇱_荷兰 (32) - undefinedms
       - 🇭🇰_香港 (5) - undefinedms
       - 🇫🇮_芬兰 - undefinedms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -957,11 +917,6 @@ proxy-groups:
     type: select
     proxies:
       - Auto Select
-      - 未知 VMESS-16 | free-nodes - undefinedms
-      - 未知 VMESS-17 | free-nodes - undefinedms
-      - 未知 VMESS-18 | free-nodes - undefinedms
-      - 未知 VMESS-19 | free-nodes - undefinedms
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 🇳🇱_荷兰 - undefinedms
@@ -998,6 +953,7 @@ proxy-groups:
       - 🇳🇱_荷兰 (32) - undefinedms
       - 🇭🇰_香港 (5) - undefinedms
       - 🇫🇮_芬兰 - undefinedms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms

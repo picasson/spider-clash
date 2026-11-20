@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: US VMESS-04 | free-nodes - undefinedms
+  - name: US VMESS-13 | free-nodes - undefinedms
     type: vmess
     server: 192.74.236.148
     port: 30004
@@ -18,20 +18,7 @@ proxies:
       path: /path/1733477783705
       headers:
         Host: www.91334565.xyz
-  - name: TW VMESS-08 | free-nodes - undefinedms
-    type: vmess
-    server: dp8yk.xiaoyan.io
-    port: 16616
-    uuid: 904f0569-8695-466f-97cf-0de2face1b46
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
-  - name: 未知 VMESS-14 | free-nodes - undefinedms
+  - name: 瑞士 V2CROSS.COM - undefinedms
     type: vmess
     server: 179.43.140.24
     port: 42831
@@ -585,28 +572,6 @@ proxies:
       path: /ws-vmess
       headers:
         Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-  - name: 瑞士 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 179.43.140.24
-    port: 42831
-    uuid: a925a98c-ad7a-40c6-9fdf-130a1de69416
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸US_1|3.2MB/s - undefinedms
-    type: vmess
-    server: 192.74.236.148
-    port: 30004
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /path/1733477783705
-      headers:
-        Host: www.91334565.xyz
   - name: 🇺🇸_US_美国_IPV4 (2) - undefinedms
     type: vmess
     server: 172.66.0.1
@@ -1131,9 +1096,8 @@ proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
-      - US VMESS-04 | free-nodes - undefinedms
-      - TW VMESS-08 | free-nodes - undefinedms
-      - 未知 VMESS-14 | free-nodes - undefinedms
+      - US VMESS-13 | free-nodes - undefinedms
+      - 瑞士 V2CROSS.COM - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
@@ -1179,8 +1143,6 @@ proxy-groups:
       - 🇩🇪_德国 (79) - undefinedms
       - 🇩🇪_德国 (80) - undefinedms
       - 🇮🇳_印度 (4) - undefinedms
-      - 瑞士 V2CROSS.COM - undefinedms
-      - 🇺🇸US_1|3.2MB/s - undefinedms
       - 🇺🇸_US_美国_IPV4 (2) - undefinedms
       - 🇺🇸 机场推荐:dafei.de 美国 15_IPV4 - undefinedms
       - '@DeltaKroneckerGithub_3021_IPV4 - undefinedms'
@@ -1227,9 +1189,8 @@ proxy-groups:
     type: select
     proxies:
       - Auto Select
-      - US VMESS-04 | free-nodes - undefinedms
-      - TW VMESS-08 | free-nodes - undefinedms
-      - 未知 VMESS-14 | free-nodes - undefinedms
+      - US VMESS-13 | free-nodes - undefinedms
+      - 瑞士 V2CROSS.COM - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
@@ -1275,8 +1236,6 @@ proxy-groups:
       - 🇩🇪_德国 (79) - undefinedms
       - 🇩🇪_德国 (80) - undefinedms
       - 🇮🇳_印度 (4) - undefinedms
-      - 瑞士 V2CROSS.COM - undefinedms
-      - 🇺🇸US_1|3.2MB/s - undefinedms
       - 🇺🇸_US_美国_IPV4 (2) - undefinedms
       - 🇺🇸 机场推荐:dafei.de 美国 15_IPV4 - undefinedms
       - '@DeltaKroneckerGithub_3021_IPV4 - undefinedms'
